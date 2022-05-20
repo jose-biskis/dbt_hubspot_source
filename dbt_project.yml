@@ -18,7 +18,7 @@ vars:
     contact: "{{ source('hubspot','contact') }}"
     contact_merge_audit: "{{ source('hubspot','contact_merge_audit') }}"
     contact_list: "{{ source('hubspot','contact_list') }}"
-    contact_list_member: "{{ source('hubspot','contact_list_member') }}"
+    contact_list_member: false
     contact_property_history: "{{ source('hubspot','contact_property_history') }}"
     deal: "{{ source('hubspot','deal') }}"
     deal_stage: "{{ source('hubspot','deal_stage') }}"
@@ -30,16 +30,16 @@ vars:
     email_campaign: "{{ source('hubspot','email_campaign') }}"
     email_event: "{{ source('hubspot','email_event') }}"
     email_event_bounce: "{{ source('hubspot','email_event_bounce') }}"
-    email_event_click: "{{ source('hubspot','email_event_click') }}"
+    email_event_click: false
     email_event_deferred: "{{ source('hubspot','email_event_deferred') }}"
     email_event_delivered: "{{ source('hubspot','email_event_delivered') }}"
     email_event_dropped: "{{ source('hubspot','email_event_dropped') }}"
-    email_event_forward: "{{ source('hubspot','email_event_forward') }}"
+    email_event_forward: false
     email_event_open: "{{ source('hubspot','email_event_open') }}"
-    email_event_print: "{{ source('hubspot','email_event_print') }}"
+    email_event_print: false
     email_event_sent: "{{ source('hubspot','email_event_sent') }}"
-    email_event_spam_report: "{{ source('hubspot','email_event_spam_report') }}"
-    email_event_status_change: "{{ source('hubspot','email_event_status_change') }}"
+    email_event_spam_report: false
+    email_event_status_change: false
     engagement: "{{ source('hubspot','engagement') }}"
     engagement_call: "{{ source('hubspot','engagement_call') }}"
     engagement_company: "{{ source('hubspot','engagement_company') }}"
