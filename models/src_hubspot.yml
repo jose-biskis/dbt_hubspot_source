@@ -2,7 +2,7 @@ version: 2
 
 sources:
   - name: hubspot
-    schema: "{{ var('hubspot_schema', 'hubspot') }}"
+    schema: "{{ var('hubspot_schema', '') }}"
     database: "{{ var('hubspot_database', target.database) }}"
     loader: Fivetran
     loaded_at_field: _fivetran_synced
