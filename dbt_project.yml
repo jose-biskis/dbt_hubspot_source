@@ -6,7 +6,7 @@ require-dbt-version: [">=1.0.0", "<2.0.0"]
 models:
   hubspot_source:
     +materialized: table
-    +schema: stg_hubspot
+    +schema: hubspot
     tmp:
       +materialized: view
 
