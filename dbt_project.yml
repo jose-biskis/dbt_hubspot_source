@@ -11,6 +11,10 @@ models:
       +materialized: view
 
 vars:
+  hubspot_contact_list_member_enabled: false
+  hubspot_email_event_spam_report_enabled: false
+  hubspot_email_event_print_enabled: false
+  hubspot_email_event_forward_enabled: false
   hubspot_email_event_click_enabled: false
   hubspot_schema: 'prod_b8a19234_e026_412f_b269_81657c5e7b56'
   hubspot_source:
